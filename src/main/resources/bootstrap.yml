@@ -1,0 +1,3 @@
+server:  port: 9070
+
+spring:  cloud:    config:      server:        git:          uri: https://github.com/carlsromec/bank-config-data.git          username: ${GIT_USER}          password: ${GIT_PASSWORD}  security:    user:      name: root      password: s0p0rt3      
